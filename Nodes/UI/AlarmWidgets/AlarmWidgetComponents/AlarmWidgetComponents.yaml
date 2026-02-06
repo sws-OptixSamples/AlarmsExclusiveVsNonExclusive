@@ -407,7 +407,7 @@ Children:
         Value: "#e4e4e4"
       - Name: ImagePosition
         Type: BaseDataVariableType
-        DataType: Position
+        DataType: ButtonImagePosition
         ModellingRule: Optional
         Value: 4
       - Name: LeftMargin
@@ -431,6 +431,7 @@ Children:
         ModellingRule: Optional
         Value: "Transparent"
     - Name: ScrollView
+      Id: g=6f1147a2225063953059497ca3a07966
       Type: ScrollView
       Children:
       - Name: Width
@@ -500,6 +501,9 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 60.0
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2222,6 +2226,7 @@ Children:
                   ModellingRule: Optional
                   Value: 1
               - Name: Message
+                Id: g=e14a3160ffa59d520f2d15b596733319
                 Type: ScrollView
                 Children:
                 - Name: Width
@@ -2301,6 +2306,9 @@ Children:
                   DataType: String
                   ModellingRule: Optional
                   Value: "Default"
+                - Class: Reference
+                  Target: ns=5;i=1394
+                  Direction: Forward
             - Name: VerticalAlignment
               Type: BaseVariableType
               DataType: VerticalAlignment
